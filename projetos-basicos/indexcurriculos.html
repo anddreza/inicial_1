@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+</head>
+
+<style>
+    #nome .titulo{
+        text-align: center;
+        margin: 0;
+    }   
+
+    #separador {
+        text-align: center;
+        
+    } 
+
+    #separador .infos-pessoais{
+        padding: 0;
+        list-style: none; /* fazer a bolinha sumir*/
+        color: grey;
+        font-size: 20px; 
+           }
+
+    #separador .infos-pessoais .info-pessoal{
+        display: inline-block;
+
+    }
+
+    #principal{
+        background-color: grey;        
+    }
+
+    #lateral {
+        background-color: aqua;
+    }
+
+    #principal{
+        background-color: gainsboro;
+        width: 70%;
+        float: left;
+
+    }
+    #lateral{
+        background-color: cyan;
+        width: 30%;
+        float: right;
+        height: 650px;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    #lateral .software{
+        list-style: none;
+        padding: 0;
+    }
+    .empresa{
+      height: 175px;  
+       background-color: hotpink;
+       margin-bottom: 20px;
+    }
+
+    .empresa .data{
+        width: 20%;
+        float: left;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .empresa .info{
+        width: 80%;
+        float: right;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .empresa .info .nome{
+        margin: 0;
+    }
+
+    .empresa .info .cargo{
+        color: grey;
+
+    }
+
+    .empresa .info .desc{
+        font-style: italic;
+    }
+</style>
+
+<body>
+    <div id="cabecalho">
+    <div id="nome">
+        <H1 class="titulo">NOME</h1>
+        <h1 class="titulo">COMPLETO</h1> 
+    </div>
+
+    <div id="separador">
+        <ul class="infos-pessoais">
+            <li class="infos-pessoal"> Endereço: xxxxxxxxxxxxxxxxxx</li>
+            <li class="infos-pessoal">Telefone: xxxxxxxxxxxxxxxxxxxxx </li>
+            <li class="infos-pessoal">Email: xxxxxxxxxxxxxxxxxx </li>
+        </ul>
+        <h3>DESENVOLVEDOR </h3>
+    <hr/>
+    </div>
+</div>
+
+<div id="corpo">
+    <div id="principal">
+    <h2> Experiência Profissional</h2>
+    
+
+<div class="empresa">
+    <div class="data">
+00/00/0000 até 00/00/0000
+    </div>
+<div class="info">
+        <h3 class="nome">Nome da Empresa</h3>
+        <h4 class="cargo">Cargo </h4>
+        <p class="desc"> Missões e tarefas efetuadas: XXXX</p>
+    </div>
+    </div>
+    <div class="empresa">
+        <div class="data">
+    00/00/0000 até 00/00/0000
+        </div>
+    <div class="info">
+            <h3 class="nome">Nome da Empresa</h3>
+            <h4 class="cargo">Cargo </h4>
+            <p class="desc"> Missões e tarefas efetuadas: XXXX</p>
+        </div>
+        </div>
+        <div class="empresa">
+            <div class="data">
+        00/00/0000 até 00/00/0000
+            </div>
+        <div class="info">
+                <h3 class="nome">Nome da Empresa</h3>
+                <h4 class="cargo">Cargo </h4>
+                <p class="desc"> Missões e tarefas efetuadas: XXXX</p>
+            </div>
+            </div>
+        </div>
+<div id="lateral">
+    <h2>Software</h2>
+    <ul ckass="Software">
+        <li> Excel </li>
+        <li> Word </li>
+        <li> PowerPoint</li>
+        <li>Chrome </li>
+        <li> Code </li>
+    </ul>
+    </div>
+</div>
+
+</body>
+</html>
